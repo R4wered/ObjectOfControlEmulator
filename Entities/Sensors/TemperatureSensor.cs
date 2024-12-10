@@ -13,7 +13,7 @@ namespace IKM724NetBasics.Entities.Sensors
 
         public override void ReadValue()
         {
-            Value = -50 + new Random().NextDouble() * 200;
+            Value = -50 + new Random().NextDouble() * 250;
             Console.WriteLine($"{Name} Temperature: {Value} C");
         }
     }
